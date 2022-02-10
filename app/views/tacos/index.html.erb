@@ -1,0 +1,18 @@
+<% fillings = ["Carnitas", "Al Pastor","Steak","Fish", "Veggies"] %>
+
+<h1>I love tacos!</h1>
+
+<ul>
+  <% for filling in fillings %>
+  <li>
+    <%= filling %>
+</li>
+
+  <% end %>
+</ul>
+<!-- here is a comment in html -->
+<% 
+# Also a comment but in ruby
+%>
+
+<p>Currently there are <%= fillings.count %> kinds of tacos</p>
